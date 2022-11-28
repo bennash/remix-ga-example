@@ -21,7 +21,14 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+        <h1>Remix Integration with Google Analytics</h1>
+        <nav style={{ display: "flex", gap: "10px" }}>
+          <a href="/">Home</a>
+          <a href="/page-1">Page 1</a>
+          <a href="/page-2">Page 2</a>
+          <a href="/page-3">Page 3</a>
+        </nav>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
